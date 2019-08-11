@@ -3,7 +3,9 @@
     font-weight:bold;
   
   }
-  
+  .comments{
+    margin-top:50px;
+  }
 .post-body{
     text-align:left;
     line-height:1.6;

@@ -88,7 +88,7 @@ export default class Postcomment extends Component {
             </div>
             </div>
 
-            <div className="card Comments">
+            <div className="card comments">
                 <div className="comment-title">
                     <h5 className="comment-text">Comments</h5>
                     <Button  onClick={this.getComments} variant="info">{show?' Hide Comments':'Show Comments'}</Button>

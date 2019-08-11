@@ -17,7 +17,7 @@ export default function Tables({data,get}) {
   <tr key={list.id}>
   <td>{list.name}</td>
   <td>{list.company.name}</td>
-  <td><a  href="javascript:void(0)" onClick={()=>get(list.id)} >Blogpost</a></td>
+  <td><span className="blog-link" onClick={()=>get(list.id)} >Blogpost</span></td>
 </tr>
 )
 }

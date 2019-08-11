@@ -29,3 +29,9 @@ body,html {
 .nav-link{
   display:inline-block;
 }
+.blog-link{
+  color:blue;
+}
+.blog-link:hover{
+  text-decoration: underline;
+}

@@ -3,7 +3,6 @@ import User from '../User/User';
 import Post from '../Posts/Post';
 import Postcomment from '../PostComment/Postcomment'
 import{BrowserRouter,Switch,Route} from 'react-router-dom';
-import{withRouter} from 'react-router';
 import rento from '../asset/rentos.png';
 class router extends Component {
     
@@ -11,7 +10,7 @@ class router extends Component {
         return (
             <div>
             <BrowserRouter>
-                <a className="nav-link" href="/"><img className="logo"  src={rento}/></a>
+                <a className="nav-link" href="/"><img className="logo"  src={rento} alt="rento-mojo"/></a>
                     <Switch>
                        <Route  path="/user/"  exact component={User}/>
                        <Route  path="/post/:id"  exact component={Post}/>
