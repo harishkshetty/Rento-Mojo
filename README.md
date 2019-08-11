@@ -1,5 +1,15 @@
-##Steps to run the Project 
+# Steps to run the Project #
 
-1]Clone the Repository
-2]Install  the Dependencies Using npm i  command
-3]Run the project using npm start command
+#Rento-Mojo
+
+### How do I get set up? ###
+
+git clone <repo name>
+cd  Rento-Mojo
+git checkout master
+
+#For Installing Dependencies
+npm install
+
+#For Local Development Environment
+npm start
