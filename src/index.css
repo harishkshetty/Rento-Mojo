@@ -1,0 +1,31 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width:100%;
+  height:100%;
+}
+#portal{
+  height:100%;
+  display: flex;
+  position: fixed;
+  z-index:-1;
+  width:100%;
+  top:0;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  padding: 10px;
+  max-width:700px;
+  margin:10px auto;
+    border: 1px solid slateblue;
+    background-color: #f8f9fa;
+}
+.logo{
+  width:80px;
+  height:80px;
+}
+.nav-link{
+  display:inline-block;
+}

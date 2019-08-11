@@ -1,0 +1,35 @@
+.post-title{
+    text-align: left;
+    font-weight:bold;
+  
+  }
+  
+.post-body{
+    text-align:left;
+    line-height:1.6;
+    font-style: italic;
+
+  }
+  .icon{
+      width: 21px;
+      height: 20px;
+      position: relative;
+      top: 3px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      background-image: url('../../src/asset/trash-alt-regular.svg');
+      
+  }
+  .post-delete{
+    text-align:center;
+  }
+  
+  .comment-title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .comment-text{
+    text-decoration: underline;
+  }
