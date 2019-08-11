@@ -8,8 +8,8 @@ git clone <repo name>
 cd  Rento-Mojo
 git checkout master
 
-# For Installing Dependencies
+## For Installing Dependencies
 npm install
 
-# For Local Development Environment
+## For Local Development Environment
 npm start
