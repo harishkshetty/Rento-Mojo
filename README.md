@@ -1,8 +1,8 @@
 # Steps to run the Project #
 
 # Rento-Mojo
+### How do I get set up? ###
 ```
-#How do I get set up?#
 git clone <repo name>
 cd  Rento-Mojo
 git checkout master
