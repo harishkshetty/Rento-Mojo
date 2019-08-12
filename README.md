@@ -3,7 +3,6 @@
 # Rento-Mojo
 
 ### How do I get set up? ###
-
 git clone <repo name>
 cd  Rento-Mojo
 git checkout master
